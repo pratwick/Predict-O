@@ -1,0 +1,47 @@
+body {
+    background-color: #2B2B2B;
+}
+
+.s {
+    color: #fff;
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+
+.head {
+    font-family: 'Montserrat', sans-serif;
+    color: #8B2F97;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.welcome {
+    color: #fff;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.disclaimer {
+    font-size: 1rem;
+}
+
+.team {
+    color: #fff;
+}
+
+.team-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 3%;
+}
+
+.footerp {
+    color: #2B2B2B;
+    ;
+}
+
+#footer {
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}

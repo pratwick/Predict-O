@@ -1,0 +1,181 @@
+body{
+    font-family: "Montserrat";
+    background-color:#8B2F97 ;
+  }
+  
+  #title{
+    background-color: #2B2B2B;
+    color: #2B2B2B;
+  }
+  h1{
+      color: #fff;
+  }
+  
+  h3{
+    font-family:"Montserrat";
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2B2B2B;
+  }
+  h5{
+      color: #fff;
+  }
+  p{
+    color: #fff;
+  }
+  
+  .container-fluid{
+    padding: 3% 15% 6%;
+  }
+  <!-- Navbar -->
+  
+  .navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.25rem;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+  
+  span b{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: 400;
+    color:#8B2F97;
+    white-space: nowrap;
+  }
+  
+  
+  
+  
+  /* Download-buttons */
+  .download-button{
+    margin:5% 3% 5% 0;
+  }
+  
+  /* Title-image */
+  .title-image{
+    width: 28%;
+    transform: rotate(22deg);
+    position: absolute;
+  }
+   /* Features */
+   #features{
+     padding: 7% 15%;
+     background-color: #fff;
+     position: relative;
+     }
+  .feature-box{
+    text-align: center;
+    padding: 5%;
+  }
+  .icon{
+    color: #8B2F97;
+    margin-bottom: 1rem;
+  }
+  .icon:hover{
+    color: #8B2F97;
+  }
+  .para{
+      color: #8f8f8f;
+  }
+  /* Carousel */
+  
+  #carousal{
+    background-color: #2B2B2B;
+  }
+  .carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .firstpic{
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+  
+  }
+  .secondpic{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .thirdpic{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .slidea{
+    padding-bottom: 100px;
+    text-align: left;
+  
+  }
+  .aslide{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 3.3 rem;
+    line-height: 1.2;
+    font-weight: 500;
+    margin: 20px 250px 50px 0px;
+    text-align: left;
+  }
+  #press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 75px;
+  }
+  .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  
+  /* Cta */
+  #cta{
+    background-color:#8B2F97 ;
+    text-align:left;
+    color: #fff;
+  }
+  
+  .us{
+      margin:5% 3% 5% 3%;
+      background-color:#8B2F97;
+  }
+  .foot{
+    font-family:'Montserrat',sans-serif;;
+    font-size: 3rem;
+    line-height: 1.5;
+    margin:5% 3% 5% 3%;
+  }
+  .btn{
+    margin-top: 100px;
+  }
+  .download-button{
+    margin:5% 3% 5% 3%;
+  }
+  .click{
+    font-family:'Montserrat',sans-serif;;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+  }
+  /*contact */
+  .contact-image {
+    height:170px;
+    width:100%;
+    background-size:cover;
+  }
+  
+  
+  /* footer */
+  #footer{
+    background-color:#2B2B2B ;
+  }
+  .social-icon{
+    padding: 20px 10px;
+  }
+  

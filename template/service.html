@@ -1,0 +1,181 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block service %}
+<br>
+<br>
+
+
+<style>
+    p,
+    h3 {
+        background-color: #2B2B2B;
+        text-align: center;
+        padding: 0px;
+        color: #cfcfcf;
+    }
+</style>
+<CENTER>
+    <form action="{% url 'result' %}" method="POST">
+        {% csrf_token %}
+        <div class="form-group mx-sm-3 mb-2">
+            <label>
+                <h3>Kilometers Drived</h3>
+            </label>
+            <input id="second" name="kms" required="required">
+        </div>
+
+
+        <br>
+
+        <div class="form-group mx-sm-3 mb-2">
+            <label>
+                <h3>What Is the Fuel type?</h3>
+            </label>
+            <select name="fuel_type" id="fuel" required="required">
+                <option value="0">CNG</option>
+                <option value="1">Diesel</option>
+                <option value="2">Electric</option>
+                <option value="3">LPG</option>
+                <option value="4">Petrol</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div class="form-group mx-sm-3 mb-2">
+            <label>
+                <h3>Transmission type</h3>
+            </label>
+
+            <select name="trans" id="research" required="required">
+                <option value="0">Manual Car</option>
+                <option value="1">Automatic Car</option>
+            </select>
+        </div>
+
+        <br>
+
+
+        <div class="form-group mx-sm-3 mb-2">
+            <label>
+                <h3>Dealer Type</h3>
+            </label>
+            <select name="dealer" id="deal" required="required">
+                <option value="0">Dealer</option>
+                <option value="1">Individual</option>
+                <option value="2">Trustmark Dealer</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div class="form-group mx-sm-3 mb-2">
+            <label>
+                <h3>Mileage</h3>
+            </label>
+            <input id="mileage_id" name="mileage" required="required">
+        </div>
+
+        <br>
+
+        <div class="form-group mx-sm-3 mb-2">
+            <label>
+                <h3>Engine</h3>
+            </label>
+            <input id="engine_id" name="engine" required="required">
+        </div>
+
+        <br>
+
+
+        <div class="form-group mx-sm-3 mb-2">
+            <label>
+                <h3>Max Power</h3>
+            </label>
+            <input id="maxp" name="max" required="required">
+        </div>
+
+        <br>
+
+        <div class="form-group mx-sm-3 mb-2">
+            <label>
+                <h3>Price</h3>
+            </label>
+            <input id="pri" name="price" required="required">
+        </div>
+
+
+        <br>
+
+        <div class="form-group mx-sm-3 mb-2">
+            <label>
+                <h3>Seats</h3>
+            </label>
+            <select id="seat_id" name="seat" required="required">
+                <option value="5">5</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+        </div>
+
+
+        <br>
+
+
+        <div class="form-group mx-sm-3 mb-2">
+            <label>
+                <h3>Company</h3>
+            </label>
+            <select id="company_id" name="company" type="number " required="required">
+
+                <option value="1">Audi</option>
+                <option value="2">BMW</option>
+                <option value="3">Bentley</option>
+                <option value="4">Datsun</option>
+                <option value="5">Ferrari</option>
+                <option value="6">Force</option>
+                <option value="7">Ford</option>
+                <option value="8">Honda</option>
+                <option value="9">Hyundai</option>
+                <option value="10">ISUZU</option>
+                <option value="11">Isuzu</option>
+                <option value="12">Jaguar</option>
+                <option value="13">Jeep</option>
+                <option value="14">Kia</option>
+                <option value="15">Land Rover</option>
+                <option value="16">Lexus</option>
+                <option value="17">MG</option>
+                <option value="18">Mahindra</option>
+                <option value="19">Maruti</option>
+                <option value="20">Maserati</option>
+                <option value="21">Mercedes-AMG</option>
+                <option value="22">Mercedes-Benz</option>
+                <option value="23">Mini</option>
+                <option value="24">Nissan</option>
+                <option value="25">Porsche</option>
+                <option value="26">Renault</option>
+                <option value="27">Rolls-Royce</option>
+                <option value="28">Skoda</option>
+                <option value="29">Tata</option>
+                <option value="30">Toyota</option>
+                <option value="31">Volkswagen</option>
+                <option value="32">Volvo</option>
+            </select>
+        </div>
+
+
+        <br>
+
+        <div class="form-group mx-sm-3 mb-2">
+            <label>
+                <h3>Age</h3>
+            </label>
+            <input id="age_id" name="age" required="required">
+        </div>
+        <button id="sub" type="submit" class="btn btn-success">Calculate</button>
+
+    </form>
+</CENTER>
+
+{% endblock %}

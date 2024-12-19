@@ -1,0 +1,107 @@
+{% load static %}
+
+{% block result %}
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<div>
+
+    <br>
+    <br>
+    <style>
+        body {
+            background-color: #2B2B2B;
+            text-align: center;
+            padding: 0px;
+            color: #cfcfcf;
+        }
+    </style>
+    <CENTER>
+        <div>
+            <h4><b>DETAILS</b></h4>
+            <br>
+            <table class="table table-striped table-dark">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">
+                            <h5>Feature</h5>
+                        </th>
+                        <th scope="col">
+                            <h5>Value</h5>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Car Brand</td>
+                        <td>{{comp}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Year of Buying </td>
+                        <td>{{age}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Fuel</td>
+                        <td>{{fuel}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Transmission</td>
+                        <td>{{trans}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Car Kilometers</td>
+                        <td>{{km}} KM</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Engine</td>
+                        <td>{{engine}} cc</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Power</td>
+                        <td>{{power}} bhp</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>Car Seat</td>
+                        <td>{{seat}} Seater</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>On-Road Price </td>
+                        <td>Rs {{p}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td>Result</td>
+                        <td>Rs {{result}} </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+            <br>
+            <a href="/download" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Download</a>
+            <a href="/service" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Try For Another Car</a>
+
+
+        </div>
+    </CENTER>
+
+
+
+
+
+</div>
+
+{% endblock %}

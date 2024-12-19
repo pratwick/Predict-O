@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block about %}
+<br>
+<br>
+
+
+
+
+
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{%static 'style.css' %}">
+</head>
+
+
+<body>
+
+
+  <center>
+    <h1 class="head">About us!</h1>
+    <p class="welcome">Hello, welcome to Predicto!!<br>
+      <div class="s">
+        <p>
+          We aim to provide an ML model for car selling price prediction and analysis. This kind of system becomes handy
+          for many people.
+          Imagine a situation where you have an old car and want to sell it. You may of course approach an agent for
+          this and find the market price,
+          but later may have to pay pocket money for his service in selling your car. But what if you can know your car
+          selling price without the intervention of an agent.
+          Or if you are an agent, definitely this will make your work easier. Yes, this system has already learned about
+          previous selling prices over years of various cars.
+
+          So, to be clear, this web model will provide you the approximate selling price for your car based on the fuel
+          type, years of service, showroom price, the number of previous owners, kilometres driven, if
+          dealer/individual, and finally if the transmission type is manual/automatic.
+          And that’s a brownie point.<br>
+
+          We have used basic python libraries , , and implemented Machine Learning algorithms - to provide accurate
+          possible results for the users.<br></p>
+      </div>
+      <p class="disclaimer">*The results may slightly vary from the original ones.</p>
+      <h2 class="team">Our Team</h2>
+
+       <!-- Images -->
+      
+      
+       <h2 class="team">Project id: 0103CS191</h2>
+      <!-- Footer -->
+
+      <footer id="footer">
+
+        <a href="https://github.com/" <i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+        <p class="footerp">© Copyright 2023 Predicto</p>
+
+
+      </footer>
+</body>
+
+
+
+
+
+
+{% endblock %}
